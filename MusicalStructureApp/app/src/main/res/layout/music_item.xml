@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/music_item_background">
+
+
+    <RelativeLayout
+        android:id="@+id/text_container"
+        style="@style/MusicLinearLayout"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:id="@+id/artist_text_view"
+            style="@style/ArtistStyle"
+            tools:text="@string/artist_text" />
+
+        <TextView
+            android:id="@+id/title_text_view"
+            style="@style/TitleStyle"
+            android:layout_below="@id/artist_text_view"
+            tools:text="@string/title_text" />
+
+        <ImageView
+            style="@style/ImageStyle"
+            android:src="@drawable/baseline_play_arrow_white_24dp" />
+
+    </RelativeLayout>
+</RelativeLayout>

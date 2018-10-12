@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Musical Structure App</string>
+    <string name="header_text">Select a song category</string>
+    <string name="artist_text">artist</string>
+    <string name="title_text">title</string>
+    <string name="rock_text">Rock songs</string>
+    <string name="love_text">Love songs</string>
+    <string name="film_text">Songs from famous movies</string>
+    <string name="african_text">African songs</string>
+</resources>
